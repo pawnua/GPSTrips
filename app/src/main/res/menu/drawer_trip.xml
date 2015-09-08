@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_openMap"
+            android:checked="false"
+            android:icon="@drawable/ic_language_white_48dp"
+            android:title="@string/openMap" />
+
+        <item
+            android:id="@+id/action_export"
+            android:checked="false"
+            android:title="@string/export"
+            android:icon="@drawable/ic_get_app_white_48dp" />
+
+        <item
+            android:id="@+id/action_show_camera"
+            android:title="@string/show_camera"
+            android:icon="@drawable/ic_local_see_white_48dp"/>
+
+        <item
+            android:id="@+id/action_show_gallery"
+            android:title="@string/show_gallery"
+            android:icon="@drawable/ic_dashboard_white_48dp"/>
+
+        <item
+            android:id="@+id/action_about"
+            android:title="@string/about"
+            android:icon="@drawable/ic_help_outline_white_48dp"/>
+
+    </group>
+
+</menu>

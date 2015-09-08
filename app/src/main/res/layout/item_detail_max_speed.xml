@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/section_maxSpeed"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/activity_trip_detail">
+
+    <TextView
+        android:id="@+id/maxSpeed_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="@dimen/font_label_small_size"
+        android:text="@string/string_max_speed"
+        android:textColor="@color/PrimaryColor" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/maxSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_value_size"
+            android:text="0"
+            android:textColor="@color/PrimaryColor"
+            android:layout_marginLeft="2dip" />
+
+        <TextView
+            android:id="@+id/maxSpeed_kmh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_label_ad_size"
+            android:text="@string/string_kmh"
+            android:textColor="@color/PrimaryColor"
+            android:layout_marginLeft="10dip" />
+
+    </LinearLayout>
+
+</LinearLayout>

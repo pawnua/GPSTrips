@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".TripDetailActivity">
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_startStopService" android:title="@string/startService"
+        android:icon="@drawable/ic_play_arrow_white_48dp"
+        android:orderInCategory="150" app:showAsAction="always" />
+
+    <item android:id="@+id/action_startService" android:title="@string/startService"
+        android:icon="@drawable/ic_play_arrow_white_48dp"
+        android:visible="false"
+        android:orderInCategory="200" app:showAsAction="never" />
+
+    <item android:id="@+id/action_stopService" android:title="@string/stopService"
+        android:icon="@drawable/ic_pause_white_48dp"
+        android:visible="false"
+        android:orderInCategory="300" app:showAsAction="never" />
+
+    <item android:id="@+id/action_showLocationList" android:title="@string/showLocationList"
+        android:orderInCategory="300" app:showAsAction="never" />
+
+    <item android:id="@+id/action_openMap" android:title="@string/openMap"
+        android:icon="@drawable/ic_place_white_48dp"
+        android:orderInCategory="300" app:showAsAction="never" />
+
+    <item android:id="@+id/action_export" android:title="@string/export"
+        android:icon="@drawable/ic_place_white_48dp"
+        android:orderInCategory="300" app:showAsAction="never" />
+
+    <item android:id="@+id/action_exportDisk" android:title="@string/exportDisk"
+        android:visible="true"
+        android:icon="@drawable/ic_place_white_48dp"
+        android:orderInCategory="300" app:showAsAction="never" />
+
+    <item android:id="@+id/action_show_camera" android:title="@string/show_camera"
+        android:icon="@drawable/ic_local_see_white_48dp"
+        android:orderInCategory="300" app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_show_gallery" android:title="@string/show_gallery"
+        android:icon="@drawable/ic_place_white_48dp"
+        android:orderInCategory="300" app:showAsAction="never" />
+
+    <item android:id="@+id/action_show_gallery_vp" android:title="@string/show_gallery"
+        android:visible="false"
+        android:icon="@drawable/ic_place_white_48dp"
+        android:orderInCategory="300" app:showAsAction="never" />
+
+    <item android:id="@+id/action_share" android:title="@string/share"
+        android:visible="false"
+        android:icon="@drawable/ic_share_grey_600_24dp"
+        android:orderInCategory="300" app:showAsAction="never" />
+
+    <item android:id="@+id/action_about" android:title="@string/about"
+        android:icon="@drawable/ic_help_outline_white_48dp"
+        android:orderInCategory="400" app:showAsAction="never" />
+
+</menu>

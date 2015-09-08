@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pawnua.android.app.gpstrips">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="googlemaps.permission.MAPS_RECEIVE"/>
+
+    <application
+        android:name="com.pawnua.android.app.gpstrips.GPSTripsApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/bike"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.pawnua.android.app.gpstrips.activities.TripsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.TripDetailActivity"/>
+        <activity android:name=".activities.TripGalleryActivity"/>
+        <activity android:name=".activities.TripGalleryViewPagerActivity"/>
+        <activity android:name=".activities.TripEditActivity"/>
+        <activity android:name=".activities.TripLocationListActivity"/>
+        <activity android:name=".activities.MapActivity"/>
+        <activity android:name=".activities.DiskCreateFileActivity"/>
+
+        <service android:name=".services.LocationService"/>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/map_v2_api_key"/>
+
+        <meta-data android:name="AA_DB_NAME" android:value="GPSTrips.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="2" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.pawnua.android.app.gpstrips.model.Trip, com.pawnua.android.app.gpstrips.model.TripLocation, com.pawnua.android.app.gpstrips.model.TripCharacteristics" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+    </application>
+
+</manifest>

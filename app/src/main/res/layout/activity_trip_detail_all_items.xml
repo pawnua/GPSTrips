@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/item_detail_current_speed" />
+
+    <TableLayout
+        android:stretchColumns="*"
+        android:shrinkColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/item_detail_max_speed" />
+
+            <include layout="@layout/item_detail_distance" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/item_detail_start_time" />
+
+            <include layout="@layout/item_detail_finish_time" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/item_detail_duration_trip" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

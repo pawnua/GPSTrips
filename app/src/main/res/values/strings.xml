@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">GPS Trips</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="q_yes">Yes</string>
+    <string name="q_no">No</string>
+
+    <string name="q_message_text">Are you sure you want to delete this track?\n
+    All data associated with it will be lost.</string>
+
+    <string name="action_open">Open</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="startService">Run service</string>
+    <string name="stopService">Stop service</string>
+    <string name="generateTrips">Generate trips</string>
+    <string name="openMap">Map</string>
+    <string name="export">Export</string>
+    <string name="exportDisk">Export to Google Drive</string>
+    <string name="save">Save</string>
+    <string name="about">About</string>
+    <string name="about_text">All rights reserved\n
+Author: Pawnua\n
+e-mail: pawnua@gmail.com\n
+(c) 2015
+    </string>
+
+    <string name="string_summary">Summary</string>
+    <string name="string_speed">Speed</string>
+    <string name="string_max_speed">Max. speed</string>
+    <string name="string_avg_speed">Avg. speed</string>
+    <string name="string_time">GPS time</string>
+    <string name="string_moving_time">Moving time</string>
+    <string name="string_start_time">Start time</string>
+    <string name="string_finish_time">End time</string>
+    <string name="string_duration_trip">Duration</string>
+    <string name="string_altitude">Altitude GPS</string>
+    <string name="string_distance">Distance</string>
+    <string name="string_moving_distance">Mov. distance</string>
+    <string name="string_kmh">km/h</string>
+    <string name="string_km">km</string>
+    <string name="string_meter">m</string>
+
+    <string name="new_trip">New trip</string>
+    <string name="trip_name">Trip</string>
+    <string name="trip_description">Trip description</string>
+
+    <string name="map_v2_api_key">AIzaSyBGX8WVpEU4x2_prEwYfpMb6eb0fq8VytU</string>
+
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="showLocationList">Track details</string>
+    <string name="show_camera">Camera</string>
+    <string name="show_gallery">Photogallery</string>
+    <string name="file_exported">File saved</string>
+    <string name="start">start</string>
+    <string name="end">end</string>
+    <string name="share">Share</string>
+    <string name="SmthWrong">Somethings Wrong</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/PrimaryColor"
+        android:textColorHint="@color/PrimaryColor"
+        android:id="@+id/tilTripName">
+
+        <EditText
+            android:textCursorDrawable="@null"
+            android:textColorHint="@color/PrimaryColor"
+            android:textColor="@color/PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etTripName">
+        </EditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/PrimaryColor"
+        android:textColorHint="@color/PrimaryColor"
+        android:id="@+id/tilTripDescription">
+
+        <EditText
+            android:textCursorDrawable="@null"
+            android:textColorHint="@color/PrimaryColor"
+            android:textColor="@color/PrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etTripDescription">
+        </EditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

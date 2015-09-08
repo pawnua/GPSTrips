@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_profile_image">75dp</dimen>
+    <dimen name="custom_profile_padding">2dp</dimen>
+
+    <dimen name="font_label_big_size">84sp</dimen>
+    <dimen name="font_label_size">18sp</dimen>
+    <dimen name="font_label_small_size">12sp</dimen>
+    <dimen name="font_label_ad_size">14sp</dimen>
+    <dimen name="font_value_size">18sp</dimen>
+    <dimen name="font_time_size">18sp</dimen>
+
+    <dimen name="font_trip_name_size">24sp</dimen>
+    <dimen name="font_trip_info_size">12sp</dimen>
+
+
+</resources>

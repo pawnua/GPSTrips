@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">GPS Trips</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="q_yes">Да</string>
+    <string name="q_no">Нет</string>
+
+    <string name="q_message_text">Вы действительно хотите удалить выбранный трек?\n
+    Все данные связанные с ним будут потеряны.</string>
+
+
+    <string name="action_open">Открыть</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_delete">Удалить</string>
+
+    <string name="startService">Запустить сервис</string>
+    <string name="stopService">Остановить сервис</string>
+    <string name="generateTrips">Сгенерировать поездки</string>
+    <string name="openMap">Карта</string>
+    <string name="export">Экспорт</string>
+    <string name="exportDisk">Экспорт Google Drive</string>
+    <string name="save">Сохранить</string>
+    <string name="about">О программе</string>
+    <string name="about_text">Права зарезервированы\n
+Автор: Pawnua\n
+e-mail: pawnua@gmail.com\n
+(c) 2015
+    </string>
+
+    <string name="string_summary">Общая информация</string>
+    <string name="string_speed">Скорость</string>
+    <string name="string_max_speed">Макс. скорость</string>
+    <string name="string_avg_speed">Ср. скорость</string>
+    <string name="string_time">Время GPS</string>
+    <string name="string_moving_time">Время в движении</string>
+    <string name="string_start_time">Время начала</string>
+    <string name="string_finish_time">Время окончания</string>
+    <string name="string_duration_trip">Длительность</string>
+    <string name="string_altitude">Высота GPS</string>
+    <string name="string_distance">Расстояние</string>
+    <string name="string_moving_distance">Расстояние движ.</string>
+    <string name="string_kmh">км/ч</string>
+    <string name="string_km">км</string>
+    <string name="string_meter">м</string>
+
+    <string name="new_trip">Новая поездка</string>
+    <string name="trip_name">Поездка</string>
+    <string name="trip_description">Описание поездки</string>
+
+    <string name="map_v2_api_key">AIzaSyBGX8WVpEU4x2_prEwYfpMb6eb0fq8VytU</string>
+
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="showLocationList">Детали трека</string>
+    <string name="show_camera">Камера</string>
+    <string name="show_gallery">Фотогалерея</string>
+    <string name="file_exported">Файл сохранен</string>
+    <string name="start">старт</string>
+    <string name="end">финиш</string>
+    <string name="share">Поделиться</string>
+    <string name="SmthWrong">Somethings Wrong</string>
+</resources>
